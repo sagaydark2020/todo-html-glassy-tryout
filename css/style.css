@@ -1,0 +1,237 @@
+body{
+    padding: 50;
+    margin: 50;
+   // background-image: linear-gradient(to right,#11D7EB,#A7CDFF);
+   background: #12c2e9;  /* fallback for old browsers */
+   background: -webkit-radial-gradient(bottom, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+   background: radial-gradient(at bottom, #f64f59, #c471ed, #12c2e9); 
+}
+
+/* ------------ container ------------ */
+.container{
+    width:380px;
+    margin:0 auto;
+}
+
+.container:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.container:before {
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+}
+.container:before {
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    filter: blur(1px);
+}
+
+.containerBig{
+    background: inherit;
+}
+ 
+.containerBig:before {
+    background: inherit;
+}
+
+.container {
+    background: inherit;
+}
+ 
+.container:before {
+    background: inherit;
+}
+.containerBig{
+    padding:10px;
+    width:760px;
+    margin:0 auto;
+    border:1px;
+    border-radius: 15px 15px 0 0;
+    position: relative;
+}
+
+/* ------------ header ------------ */
+.header{
+    height:200px;
+    padding:10px;
+    width:760px;
+    margin:0 auto;
+    border:1px;
+    border-radius: 15px 15px 0 0;
+    position: relative;
+    background-image: url('../img/ab2.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+.clear{
+    width : 30px;
+    height: 30px;
+    position: absolute;
+    right:20px;
+    top: 20px;
+}
+.clear i{
+    font-size: 30px;
+    color: #FFF;
+}
+.clear i:hover{
+    cursor: pointer;
+    text-shadow: 1px 3px 5px #000;
+    transform: rotate(45deg);
+}
+#date{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #FFF;
+    font-size: 14px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* ------------ content ------------ */
+.content{
+    width:380px;
+    height: 350px;
+    max-height:350px;
+    background-color: #FFF;
+    overflow: auto; 
+}
+.content::-webkit-scrollbar { 
+    display: none; 
+}
+.content ul{
+    padding:2px;
+    margin:2px;
+}
+
+
+.item{
+    width:360px;
+    height: 45px;
+    min-height: 45px;
+    position: relative;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 15px;
+    background-color: #000000;
+    opacity: 0.5;
+    list-style: none;
+    padding:2px;
+    margin:2px;
+}
+.item i.co{
+    position: absolute;
+    font-size: 25px;
+    padding-left:5px;
+    left:15px;
+    top:10px;
+    color: #4cd4a8;
+}
+.item i.co:hover{
+    cursor: pointer;
+}
+.fa-check-circle{
+    color:#6eb200;
+}
+.item p.text{
+    position: absolute;
+    padding:0;
+    margin:0;
+    font-size: 23px;
+    left:50px;
+    top:10px;
+    color: #4cd4a8;
+    max-width:285px;
+}
+.lineThrough{
+    text-decoration: line-through;
+    color : #ccc;
+}
+.item i.de{
+    position: absolute;
+    font-size: 25px;
+    right:15px;
+    top:10px;
+}
+.item i.de:hover{
+    color:#af0000;
+    cursor: pointer;
+}
+/* ------------ add item ------------ */
+.add-to-do{
+    position: relative;
+    width: 360px;
+    height:40px;
+    background-color: #FFF;
+    padding: 10px;
+    border-radius: 15px 15px 15px 15px;
+}
+.add-to-do i{
+    position: absolute;
+    font-size: 40px;
+    color: #4162f6;
+}
+.add-to-do input{
+    position: absolute;
+    left: 50px;
+    height: 35px;
+    width: 310px;
+    background-color: inherit;
+    border: none;
+    font-size: 20px;
+    padding-left:10px;
+
+}
+.add-to-do input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #4162f6;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
+.add-to-do input::-moz-placeholder { /* Firefox 19+ */
+    color: #4162f6;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
+.add-to-do input:-ms-input-placeholder { /* IE 10+ */
+    color: #4162f6;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
+.add-to-do input:-moz-placeholder { /* Firefox 18- */
+    color: #4162f6;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
